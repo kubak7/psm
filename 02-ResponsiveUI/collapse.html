@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapse example</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+<div class="jumbotron">
+    <h1 class="display-4">PROGRAMS.HTML Uniwersytet Ekonomiczny w Krakowie</h1>
+    <p class="lead">jedna z pięciu polskich państwowych wyższych szkół ekonomicznych. Jest największym w Polsce pod względem liczby studentów uniwersytetem poświęconym naukom ekonomicznym, a także trzecią co do wielkości uczelnią w Krakowie (po Uniwersytecie Jagiellońskim i Akademii Górniczo-Hutniczej).</p>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <h1>Administracja</h1>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">Dodatkowe informacje</button>
+            <div class="collapse" id="collapseExample1">
+                <div class="card card-body">
+                    <p>Kierunek łączy aspekty prawne, ekonomiczne i organizacyjno-zarządcze funkcjonowania administracji.
+                        Wyróżnikiem kierunku jest dostarczanie Studentom wiedzy i umiejętności niezbędnych do skutecznego i profesjonalnego wykonywania zadań, jakie zostały postawione przed współczesną administracją
+                        zarówno publiczną, jak i prywatną</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <h1>Finanse i Rachunkowość</h1>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">Dodatkowe informacje</button>
+            <div class="collapse" id="collapseExample2">
+              <div class="card card-body">
+                <p>Po studiach na tym kierunku nie tylko nie będzie Ci obca wiedza ekonomiczna, ale przede wszystkim zrozumiesz finansowe mechanizmy funkcjonowania współczesnej gospodarki rynkowej, jej instytucji i podmiotów gospodarczych. Na Finansach i rachunkowości poznasz podstawowe teorie pieniężno-ekonomiczne,
+                a także zasady sprawozdawczości w ujęciu krajowym i międzynarodowym</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <h1>Informatyka stosowana</h1>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">Dodatkowe informacje</button>
+            <div class="collapse" id="collapseExample3">
+                <div class="card card-body">
+                    <p>Studiując ten kierunek poznasz przedmioty wchodzące w skład kanonu informatyki, a oprócz tego zyskasz solidne podstawy nauk ekonomicznych.
+                    Obok znajomości teoretycznych podstaw informatyki, budowy i zasad
+                    działania systemów komputerowych, programowania, baz danych,
+                    systemów operacyjnych, sieci komputerowych oraz projektowania
+                    systemów informacyjnych, będziesz mógł uzyskać wiedzę z zakresu ekonomii, zarządzania, przedsiębiorczości, rachunkowości
+                czy prawa</p>
+                </div>
+            </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
